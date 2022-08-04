@@ -15,7 +15,7 @@ const NewTask = (props) => {
 
 
 
-  const enterTaskHandler = async (taskText) => {
+  const enterTaskHandler = (taskText) => {
 
 
     sendTaskRequest(
